@@ -1,3 +1,5 @@
+![Side](https://github.com/Snow014/M_IAQ/blob/main/Photos/20250118_133752.jpg)
+
 # M_IAQ
 
 Here you'll find the files for my homemade Internal Air Quality sensor! It uses a custom PCB designed by me, as well as a SEN55 sensor, and a MHZ19C sensor. You can find the full list of meassured data below. The PCB is designed around the Xiao seeeduino ESP32c3, but something like a supermini will also work, though you'll have to adjust the pinouts in code. Keep in mind that I only accounted for the strapping pins of the Xiao esp32c3.
