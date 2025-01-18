@@ -1,0 +1,1 @@
+This is an example script I wrote, to push all the data from the sensor to a MQTT broker over wifi.
