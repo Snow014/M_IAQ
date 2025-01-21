@@ -2,7 +2,7 @@
 
 # M_IAQ
 
-Here you'll find the files for my homemade Internal Air Quality sensor! It uses a custom PCB designed by me, as well as a SEN55 sensor, and a MHZ19C sensor. You can find the full list of meassured data below. The PCB is designed around the Xiao seeeduino ESP32c3, but something like a supermini will also work, though you'll have to adjust the pinouts in code. Keep in mind that I only accounted for the strapping pins of the Xiao esp32c3.
+Here you'll find the files for my homemade Internal Air Quality sensor! It uses a custom PCB designed by me, as well as a SEN55 sensor, and a MHZ19C sensor. You can find the full list of measured data below. The PCB is designed around the [Seeed Studio XIAO ESP32C3](https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html), but something like a supermini will also work, though you'll have to adjust the pinouts in the code. Keep in mind that I only accounted for the strapping pins of the XIAO ESP32C3.
 
 There are four buttons on top, useful for for example switching what data the OLED shows, or forcing the device to calibrate, or shutting down the sensors. These buttons are connected to boot pins, so they do not have pullup resistors in hardware.
 The PCB also has an optional header for an OLED screen, to show data right on the device. I designed the board to be powered over the esp's USB port, trough the 5v pin. There is also the option of soldering on a micro-usb connector on the left as power input. The connector has the data lines shorted so most adaptors will give it up to 5W. If this causes issues, you can break the trace between the solder pads near the connector, and they'll be floating. 
